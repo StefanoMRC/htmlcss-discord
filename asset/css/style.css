@@ -104,3 +104,51 @@ header{
      color: rgba(37,94,233,255);
  }
 /* FINE HEROS */
+
+/* INIZIO MAIN */
+
+main{
+    width: 100%;
+}
+
+/* PRIMA SECTION */
+.section{
+    width: 70%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.immagine{
+    width: 60%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.immagine img{
+    width: 100%;
+}
+
+.testo{
+    width:30%;
+    margin-top: 50px;
+}
+.testo h2{
+    font-size: 4.5em;
+    text-align: left;
+}
+.testo p{
+    font-size: 2em;
+    text-align: justify;
+    margin-top: 30px;
+    line-height: 1.5em;
+}
+
