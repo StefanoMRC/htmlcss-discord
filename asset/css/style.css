@@ -119,7 +119,7 @@ main{
     padding-bottom: 100px;
 
 }
-.section::after{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -152,3 +152,59 @@ main{
     line-height: 1.5em;
 }
 
+.ultima{
+    width: 100%;
+}
+.txt{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+.txt h2{
+    font-size: 4em;
+    padding: 40px;
+}
+.txt p{
+    font-size: 1.8em;
+}
+.banner{
+    width: 70%;
+    margin: auto;
+}
+.banner img{
+    width: 100%;  
+}
+.start{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.start h2{
+    text-align: center;
+    font-size: 4.2em;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+.b-blu{
+    padding-right: 20px;
+    padding-left: 20px;
+    color: white;
+    font-size: 2em;
+    background-color: rgba(142,161,225,255);
+}
+.ultimo-bottone{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 20px;
+    background-color: rgba(35,39,42,255);
+}
