@@ -10,12 +10,12 @@ header{
     background-color:rgba(37,94,233,255);
 }
 .conteiner-nav{
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 .conteiner-nav div{
     display: inline-block;
-    padding: 10px;
+    padding: 20px;
 }
 .logo{
     width: 20%;
@@ -27,6 +27,7 @@ header{
 }
 .menu-principale{
     width: 100%;
+    text-align: center;
 }
 .menu-principale li{
     display: inline-block;
@@ -45,6 +46,9 @@ header{
 }
 .cont-button{
     width: 20%;
+}
+.accedi{
+    margin-left: 100%;
 }
 .button{
     display: inline-block;
