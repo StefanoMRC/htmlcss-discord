@@ -208,3 +208,32 @@ footer{
     height: 20px;
     background-color: rgba(35,39,42,255);
 }
+.menu-finale{
+    width: 70%;
+}
+.col-1{
+    width: 40%;
+    float: left;
+}
+.col-1 .ita img{
+    display: inline;
+    height: 20px;
+    width: 30px;
+    vertical-align: middle;
+}
+.col-2{
+    width: 15%;
+    float: left;
+}
+.col-3{
+    width: 15%;
+    float: left;
+}
+.col-4{
+    width: 15%;
+    float: left;
+}
+.col-5{
+    width: 15%;
+    float: left;
+}
