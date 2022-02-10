@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Comic Neue', cursive;;
+}
 
 /* MENU PRINCIPALE */
 header{
@@ -83,7 +86,7 @@ header{
      color: white;
  }
  .txt-heros p{
-     font-size: 2em;
+     font-size: 1.5em;
      color: white;
      margin-top: 20px;
      margin-bottom: 20px;
@@ -142,11 +145,11 @@ main{
     margin-top: 50px;
 }
 .testo h2{
-    font-size: 4.5em;
+    font-size: 3.5em;
     text-align: left;
 }
 .testo p{
-    font-size: 2em;
+    font-size: 1.7em;
     text-align: justify;
     margin-top: 30px;
     line-height: 1.5em;
