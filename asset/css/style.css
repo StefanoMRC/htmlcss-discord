@@ -114,7 +114,7 @@ main{
     width: 100%;
 }
 
-/* PRIMA SECTION */
+/* SEZIONI IMMAGINI E TESTO */
 .section{
     width: 70%;
     margin: auto;
@@ -149,12 +149,14 @@ main{
     text-align: left;
 }
 .testo p{
-    font-size: 1.7em;
+    font-size: 1.5em;
     text-align: justify;
     margin-top: 30px;
     line-height: 1.5em;
 }
+/* SEZIONE IMMAGINI E TESTI */
 
+/* ULTIMA SEZIONE */
 .ultima{
     width: 100%;
 }
@@ -197,6 +199,7 @@ main{
 .b-blu{
     padding-right: 20px;
     padding-left: 20px;
+    padding-bottom: 20PX;
     color: white;
     font-size: 2em;
     background-color: rgba(142,161,225,255);
@@ -206,6 +209,9 @@ main{
     margin: auto;
     text-align: center;
 }
+/* ULTIMA SEZIONE */
+
+/* FOOTER */
 footer{
     width: 100%;
     background-color: rgba(35,39,42,255);
@@ -252,7 +258,7 @@ footer{
 }
 .menu-finale div ul li{
     list-style-type: none;
-    padding: 10px;
+    padding: 7px;
     margin-top: 5px;
 }
 .menu-finale div ul li a{
@@ -261,10 +267,14 @@ footer{
 }
 .menu-finale div ul{
     margin-top: 10px;
-    text-align: center;
+    text-align: left;
     font-size: 1em;
     color: rgba(142,161,225,255);
     font-weight: bold;
+}
+.menu-finale div ul span{
+    margin-left: 7px;
+
 }
 .menu-finale div ul li a:hover{
     text-decoration: underline;
@@ -288,3 +298,4 @@ hr{
     background-color: rgba(142,161,225,255);
     color: white;
 }
+/* FOOTER */
