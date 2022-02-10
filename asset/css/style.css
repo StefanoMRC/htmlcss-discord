@@ -261,7 +261,27 @@ footer{
     text-align: center;
     font-size: 1em;
     color: rgba(142,161,225,255);
+    font-weight: bold;
 }
 .menu-finale div ul li a:hover{
     text-decoration: underline;
+}
+hr{
+    background-color: rgba(142,161,225,255); height: 1px; border: 0;
+    margin-bottom: 50px;
+}
+
+.crediti{
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    padding-bottom: 100px;
+}
+.crediti img{
+    float: left;
+}
+.crediti .button{
+    float: right;
+    background-color: rgba(142,161,225,255);
+    color: white;
 }
