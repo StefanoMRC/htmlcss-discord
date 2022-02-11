@@ -305,4 +305,7 @@ hr{
     background-color: rgba(142,161,225,255);
     color: white;
 }
+.crediti .button:hover{
+    color:  rgba(37,94,233,255);
+}
 /* FOOTER */
